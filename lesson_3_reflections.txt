@@ -1,5 +1,12 @@
-When would you want to create a remote repository rather than keeping all your work local?
+﻿When would you want to create a remote repository rather than keeping all your work local?
 
 Q:何时你会想使用远程版本库，而不是将所有工作保存在本地？
 
 A:当进行了一个较大的修改的时候，我会使用远程版本库，以便我的电脑出现问题的时候能够从远程版本库恢复代码。
+
+----2017年2月4日 10:27:16----
+Q:说明Fork、克隆和分支之间的不同。何时使用某种功能而不是另一种？
+
+A:Fork本质上是GitHub内部服务器上的一种Clone，当我们在使用GitHub需要获得别人的代码进行自己修改的时候我们可以先使用Fork到自己的GitHub中，然后从我们自己
+本地通过从远端的我们自己的GitHub上将该respository(仓库)Clone到我们自己本地，分支则是对代码更加细致的一个管理，当我们需要对代码进行具体的内部管理我们
+就要使用分支。
